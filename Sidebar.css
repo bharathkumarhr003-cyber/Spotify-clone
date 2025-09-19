@@ -1,0 +1,82 @@
+.sidebar {
+  width: 200px;
+  background-color: #121212;
+  color: #fff;
+  padding: 20px;
+  height: 100vh;
+}
+
+.logo h2 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-bottom: 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #1db954;
+}
+
+.playlists {
+  margin-top: 30px;
+}
+
+.playlists h3 {
+  margin-top: 0;
+}
+
+.playlists ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlists li {
+  margin-bottom: 10px;
+}
+
+.playlists a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.playlists a:hover {
+  color: #1db954;
+}
+
+.user-profile {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #282828;
+}
+
+.user-profile button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.user-profile button:hover {
+  background-color: #fff;
+  color: #121212;
+}
